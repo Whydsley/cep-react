@@ -1,0 +1,27 @@
+.btn {
+    font-family: "Montserrat", sans-serif;
+    border-radius: 30px;
+    cursor: pointer;
+    padding: 20px 40px;
+    box-shadow: 15px 15px rgba(0, 0, 0, 0.3);
+
+    &:disabled {
+        opacity: 0.6;
+    }
+
+    &.primary {
+        color: white;
+        background:#0f172a;
+        font-size: 24px;
+        font-weight: bold;
+    }
+
+    &.secondary {
+        color: #0f172a;
+        background: white;
+
+        font-size: 16px;
+        font-weight: bold;
+
+    }
+}
